@@ -1,0 +1,179 @@
+Attaching to iot-agent-simulation_requester-vehicle_1, iot-agent-simulation_front-vehicle_1, iot-agent-simulation_tesla_1, iot-agent-simulation_pool_1
+[36mrequester-vehicle_1  |[0m Debugger listening on ws://0.0.0.0:9229/ae57bbc5-d4c5-43eb-9af7-b5666c1b2a53
+[36mrequester-vehicle_1  |[0m For help see https://nodejs.org/en/docs/inspector
+[36mrequester-vehicle_1  |[0m  INFO|command_executor              |                src/commands/mod.rs:75  | Worker thread started
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:115 | PoolCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|pool_command_executor         |               src/commands/pool.rs:132 | SetProtocolVersion command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:115 | PoolCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|pool_command_executor         |               src/commands/pool.rs:57  | Create command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:115 | PoolCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|pool_command_executor         |               src/commands/pool.rs:65  | Open command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:115 | PoolCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands::pool          |               src/commands/pool.rs:69  | OpenAck handle 1, pool_id 1, result Ok(())
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:123 | WalletCommand command received
+[36mrequester-vehicle_1  |[0m wallet already exist, try to open wallet
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:123 | WalletCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands::did           |                src/commands/did.rs:151 | ListMyDidsWithMeta command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:123 | WalletCommand command received
+[36mrequester-vehicle_1  |[0m wallet already exist, try to open wallet
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:123 | WalletCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands::did           |                src/commands/did.rs:131 | CreateAndStoreMyDid command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands::did           |                src/commands/did.rs:131 | CreateAndStoreMyDid command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands::did           |                src/commands/did.rs:171 | SetDidMetadata command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:236 | BuildNymRequest command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:49  | build_nym_request >>> identifier: "Th7MpTaRZVRYnPiabds81Y", dest: "2KU9jFznws25zzC6irz1Pk", verkey: Some("igJrL22s2oUDo8E9H2RPXtw3vjYarVFayrMBo4uJ4oL"), alias: None, role: Some("TRUST_ANCHOR")
+[36mrequester-vehicle_1  |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:80  | build_nym_request <<< request: "{\"reqId\":1609181847400313745,\"identifier\":\"Th7MpTaRZVRYnPiabds81Y\",\"operation\":{\"dest\":\"2KU9jFznws25zzC6irz1Pk\",\"role\":\"101\",\"type\":\"1\",\"verkey\":\"igJrL22s2oUDo8E9H2RPXtw3vjYarVFayrMBo4uJ4oL\"},\"protocolVersion\":2}"
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:202 | SignAndSubmitRequest command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:210 | SubmitAck command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:243 | BuildAttribRequest command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:113 | build_attrib_request >>> identifier: "2KU9jFznws25zzC6irz1Pk", dest: "2KU9jFznws25zzC6irz1Pk", hash: None, raw: Some("{\"endpoint\":{\"ha\":\"173.17.0.11:3001\"}}"), enc: None
+[36mrequester-vehicle_1  |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:131 | build_attrib_request <<< request: "{\"reqId\":1609181848690864395,\"identifier\":\"2KU9jFznws25zzC6irz1Pk\",\"operation\":{\"type\":\"100\",\"dest\":\"2KU9jFznws25zzC6irz1Pk\",\"raw\":\"{\\\"endpoint\\\":{\\\"ha\\\":\\\"173.17.0.11:3001\\\"}}\"},\"protocolVersion\":2}"
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:202 | SignAndSubmitRequest command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:210 | SubmitAck command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands::did           |                src/commands/did.rs:175 | GetDidMetadata command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:99  | AnoncredsCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|anoncreds_command_executor    |      src/commands/anoncreds/mod.rs:54  | Prover command received
+[36mrequester-vehicle_1  |[0m  INFO|prover_command_executor       |   src/commands/anoncreds/prover.rs:164 | CreateMasterSecret command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands::did           |                src/commands/did.rs:175 | GetDidMetadata command received
+[33mfront-vehicle_1      |[0m Debugger listening on ws://0.0.0.0:9229/bb793d4e-4930-40e1-a641-037cb23943d9
+[33mfront-vehicle_1      |[0m For help see https://nodejs.org/en/docs/inspector
+[33mfront-vehicle_1      |[0m  INFO|command_executor              |                src/commands/mod.rs:75  | Worker thread started
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:115 | PoolCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands::did           |                src/commands/did.rs:171 | SetDidMetadata command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:243 | BuildAttribRequest command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:113 | build_attrib_request >>> identifier: "2KU9jFznws25zzC6irz1Pk", dest: "2KU9jFznws25zzC6irz1Pk", hash: None, raw: Some("{\"endpoint\":{\"ha\":\"173.17.0.11:3001\"}}"), enc: None
+[36mrequester-vehicle_1  |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:131 | build_attrib_request <<< request: "{\"reqId\":1609181849916294272,\"identifier\":\"2KU9jFznws25zzC6irz1Pk\",\"operation\":{\"type\":\"100\",\"dest\":\"2KU9jFznws25zzC6irz1Pk\",\"raw\":\"{\\\"endpoint\\\":{\\\"ha\\\":\\\"173.17.0.11:3001\\\"}}\"},\"protocolVersion\":2}"
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:202 | SignAndSubmitRequest command received
+[33mfront-vehicle_1      |[0m  INFO|pool_command_executor         |               src/commands/pool.rs:132 | SetProtocolVersion command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:115 | PoolCommand command received
+[33mfront-vehicle_1      |[0m  INFO|pool_command_executor         |               src/commands/pool.rs:57  | Create command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:115 | PoolCommand command received
+[33mfront-vehicle_1      |[0m  INFO|pool_command_executor         |               src/commands/pool.rs:65  | Open command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:115 | PoolCommand command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands::pool          |               src/commands/pool.rs:69  | OpenAck handle 1, pool_id 1, result Ok(())
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:123 | WalletCommand command received
+[33mfront-vehicle_1      |[0m wallet already exist, try to open wallet
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:123 | WalletCommand command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands::did           |                src/commands/did.rs:151 | ListMyDidsWithMeta command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:123 | WalletCommand command received
+[33mfront-vehicle_1      |[0m wallet already exist, try to open wallet
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:123 | WalletCommand command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands::did           |                src/commands/did.rs:131 | CreateAndStoreMyDid command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands::did           |                src/commands/did.rs:131 | CreateAndStoreMyDid command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands::did           |                src/commands/did.rs:171 | SetDidMetadata command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[36mrequester-vehicle_1  |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:210 | SubmitAck command received
+[36mrequester-vehicle_1  |[0m Listening on port 3001
+[33mfront-vehicle_1      |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:236 | BuildNymRequest command received
+[33mfront-vehicle_1      |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:49  | build_nym_request >>> identifier: "Th7MpTaRZVRYnPiabds81Y", dest: "KdPZ8XJJ19Yxfud7ufW46G", verkey: Some("B9rDs3U9eUCmebkDX6hkgd9qnoBjE6SyKwq7MaxxACWe"), alias: None, role: Some("TRUST_ANCHOR")
+[33mfront-vehicle_1      |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:80  | build_nym_request <<< request: "{\"reqId\":1609181847487500946,\"identifier\":\"Th7MpTaRZVRYnPiabds81Y\",\"operation\":{\"dest\":\"KdPZ8XJJ19Yxfud7ufW46G\",\"role\":\"101\",\"type\":\"1\",\"verkey\":\"B9rDs3U9eUCmebkDX6hkgd9qnoBjE6SyKwq7MaxxACWe\"},\"protocolVersion\":2}"
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[32mtesla_1              |[0m Debugger listening on ws://0.0.0.0:9229/4524201e-802a-40fa-b6f2-e6d2f2272c46
+[32mtesla_1              |[0m For help see https://nodejs.org/en/docs/inspector
+[32mtesla_1              |[0m  INFO|command_executor              |                src/commands/mod.rs:75  | Worker thread started
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:115 | PoolCommand command received
+[32mtesla_1              |[0m  INFO|pool_command_executor         |               src/commands/pool.rs:132 | SetProtocolVersion command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:115 | PoolCommand command received
+[32mtesla_1              |[0m  INFO|pool_command_executor         |               src/commands/pool.rs:57  | Create command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:115 | PoolCommand command received
+[32mtesla_1              |[0m  INFO|pool_command_executor         |               src/commands/pool.rs:65  | Open command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:115 | PoolCommand command received
+[32mtesla_1              |[0m  INFO|indy::commands::pool          |               src/commands/pool.rs:69  | OpenAck handle 1, pool_id 1, result Ok(())
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:123 | WalletCommand command received
+[32mtesla_1              |[0m wallet already exist, try to open wallet
+[33mfront-vehicle_1      |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:202 | SignAndSubmitRequest command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[33mfront-vehicle_1      |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:210 | SubmitAck command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:123 | WalletCommand command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[32mtesla_1              |[0m  INFO|indy::commands::did           |                src/commands/did.rs:151 | ListMyDidsWithMeta command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:123 | WalletCommand command received
+[33mfront-vehicle_1      |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:243 | BuildAttribRequest command received
+[32mtesla_1              |[0m wallet already exist, try to open wallet
+[33mfront-vehicle_1      |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:113 | build_attrib_request >>> identifier: "KdPZ8XJJ19Yxfud7ufW46G", dest: "KdPZ8XJJ19Yxfud7ufW46G", hash: None, raw: Some("{\"endpoint\":{\"ha\":\"173.17.0.22:3002\"}}"), enc: None
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:123 | WalletCommand command received
+[33mfront-vehicle_1      |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:131 | build_attrib_request <<< request: "{\"reqId\":1609181849696811209,\"identifier\":\"KdPZ8XJJ19Yxfud7ufW46G\",\"operation\":{\"type\":\"100\",\"dest\":\"KdPZ8XJJ19Yxfud7ufW46G\",\"raw\":\"{\\\"endpoint\\\":{\\\"ha\\\":\\\"173.17.0.22:3002\\\"}}\"},\"protocolVersion\":2}"
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[35mpool_1               |[0m 2020-12-28 18:55:26,047 CRIT Set uid to user 1000
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[33mfront-vehicle_1      |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:202 | SignAndSubmitRequest command received
+[32mtesla_1              |[0m  INFO|indy::commands::did           |                src/commands/did.rs:131 | CreateAndStoreMyDid command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[33mfront-vehicle_1      |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:210 | SubmitAck command received
+[32mtesla_1              |[0m  INFO|indy::commands::did           |                src/commands/did.rs:131 | CreateAndStoreMyDid command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands::did           |                src/commands/did.rs:175 | GetDidMetadata command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:99  | AnoncredsCommand command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[33mfront-vehicle_1      |[0m  INFO|anoncreds_command_executor    |      src/commands/anoncreds/mod.rs:54  | Prover command received
+[33mfront-vehicle_1      |[0m  INFO|prover_command_executor       |   src/commands/anoncreds/prover.rs:164 | CreateMasterSecret command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[32mtesla_1              |[0m  INFO|indy::commands::did           |                src/commands/did.rs:171 | SetDidMetadata command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[32mtesla_1              |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:236 | BuildNymRequest command received
+[32mtesla_1              |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:49  | build_nym_request >>> identifier: "Th7MpTaRZVRYnPiabds81Y", dest: "SbBhZytfgA2xfJikXffRAu", verkey: Some("EwvzqGULvTNk7q8fFjLtJQs6mJxS3T1UszR8EUUjikev"), alias: None, role: Some("TRUST_ANCHOR")
+[32mtesla_1              |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:80  | build_nym_request <<< request: "{\"reqId\":1609181847862269414,\"identifier\":\"Th7MpTaRZVRYnPiabds81Y\",\"operation\":{\"dest\":\"SbBhZytfgA2xfJikXffRAu\",\"role\":\"101\",\"type\":\"1\",\"verkey\":\"EwvzqGULvTNk7q8fFjLtJQs6mJxS3T1UszR8EUUjikev\"},\"protocolVersion\":2}"
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[32mtesla_1              |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:202 | SignAndSubmitRequest command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[32mtesla_1              |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:210 | SubmitAck command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[32mtesla_1              |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:243 | BuildAttribRequest command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands::did           |                src/commands/did.rs:175 | GetDidMetadata command received
+[32mtesla_1              |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:113 | build_attrib_request >>> identifier: "SbBhZytfgA2xfJikXffRAu", dest: "SbBhZytfgA2xfJikXffRAu", hash: None, raw: Some("{\"endpoint\":{\"ha\":\"173.17.0.99:3000\"}}"), enc: None
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[32mtesla_1              |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:131 | build_attrib_request <<< request: "{\"reqId\":1609181849713946672,\"identifier\":\"SbBhZytfgA2xfJikXffRAu\",\"operation\":{\"type\":\"100\",\"dest\":\"SbBhZytfgA2xfJikXffRAu\",\"raw\":\"{\\\"endpoint\\\":{\\\"ha\\\":\\\"173.17.0.99:3000\\\"}}\"},\"protocolVersion\":2}"
+[33mfront-vehicle_1      |[0m  INFO|indy::commands::did           |                src/commands/did.rs:171 | SetDidMetadata command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[32mtesla_1              |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:202 | SignAndSubmitRequest command received
+[33mfront-vehicle_1      |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:243 | BuildAttribRequest command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[33mfront-vehicle_1      |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:113 | build_attrib_request >>> identifier: "KdPZ8XJJ19Yxfud7ufW46G", dest: "KdPZ8XJJ19Yxfud7ufW46G", hash: None, raw: Some("{\"endpoint\":{\"ha\":\"173.17.0.22:3002\"}}"), enc: None
+[32mtesla_1              |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:210 | SubmitAck command received
+[33mfront-vehicle_1      |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:131 | build_attrib_request <<< request: "{\"reqId\":1609181851618193245,\"identifier\":\"KdPZ8XJJ19Yxfud7ufW46G\",\"operation\":{\"type\":\"100\",\"dest\":\"KdPZ8XJJ19Yxfud7ufW46G\",\"raw\":\"{\\\"endpoint\\\":{\\\"ha\\\":\\\"173.17.0.22:3002\\\"}}\"},\"protocolVersion\":2}"
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[32mtesla_1              |[0m  INFO|indy::commands::did           |                src/commands/did.rs:175 | GetDidMetadata command received
+[33mfront-vehicle_1      |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:202 | SignAndSubmitRequest command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:99  | AnoncredsCommand command received
+[33mfront-vehicle_1      |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[32mtesla_1              |[0m  INFO|anoncreds_command_executor    |      src/commands/anoncreds/mod.rs:54  | Prover command received
+[33mfront-vehicle_1      |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:210 | SubmitAck command received
+[32mtesla_1              |[0m  INFO|prover_command_executor       |   src/commands/anoncreds/prover.rs:164 | CreateMasterSecret command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[33mfront-vehicle_1      |[0m Listening on port 3002
+[32mtesla_1              |[0m  INFO|indy::commands::did           |                src/commands/did.rs:175 | GetDidMetadata command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:119 | DidCommand command received
+[32mtesla_1              |[0m  INFO|indy::commands::did           |                src/commands/did.rs:171 | SetDidMetadata command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[32mtesla_1              |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:243 | BuildAttribRequest command received
+[32mtesla_1              |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:113 | build_attrib_request >>> identifier: "SbBhZytfgA2xfJikXffRAu", dest: "SbBhZytfgA2xfJikXffRAu", hash: None, raw: Some("{\"endpoint\":{\"ha\":\"173.17.0.99:3000\"}}"), enc: None
+[32mtesla_1              |[0m  INFO|indy::services::ledger        |         src/services/ledger/mod.rs:131 | build_attrib_request <<< request: "{\"reqId\":1609181851673809521,\"identifier\":\"SbBhZytfgA2xfJikXffRAu\",\"operation\":{\"type\":\"100\",\"dest\":\"SbBhZytfgA2xfJikXffRAu\",\"raw\":\"{\\\"endpoint\\\":{\\\"ha\\\":\\\"173.17.0.99:3000\\\"}}\"},\"protocolVersion\":2}"
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[32mtesla_1              |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:202 | SignAndSubmitRequest command received
+[32mtesla_1              |[0m  INFO|indy::commands                |                src/commands/mod.rs:111 | LedgerCommand command received
+[32mtesla_1              |[0m  INFO|ledger_command_executor       |             src/commands/ledger.rs:210 | SubmitAck command received
+[32mtesla_1              |[0m Listening on port 3000
